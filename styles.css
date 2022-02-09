@@ -1,0 +1,154 @@
+.body {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+.pass {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    padding-left: 5% !important;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+.lable {
+    color: #35637e;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.row {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(144, 161, 151);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(144, 161, 151);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.inputxy {
+    padding-top: 6%;
+    padding-left: 16%;
+    /* padding-left: 4%; */
+    min-width: 50%;
+    max-width: 50%;
+    width: 100%;
+}
+
+.palindrome {
+    padding-left: 13%;
+    /* padding-left: 4%; */
+    max-width: 50%;
+    min-width: 50%;
+    width: 100%;
+}
+
+.extraspace {
+    padding-left: 14%;
+    max-width: 50%;
+    min-width: 50%;
+    width: 90%;
+}
+
+.validation {
+    display: flex !important;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: 100%;
+    justify-content: flex-start !important;
+    width: 100%;
+}
+
+.button {
+    background-color: #cf6925;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 43%;
+}
+
+#btnpass {
+    margin: auto;
+    margin-left: 0%;
+    float: left;
+}
+
+.div1 {
+    border: 3%;
+    border-color: #939c93;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 5%;
+    margin: 1%;
+    width: 100%;
+    max-width: 33.33%;
+    min-width: 10%;
+    min-height: 360px;
+    text-align: center;
+}
+
+.card2 {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 5%;
+    max-width: 40%;
+    min-width: 30%;
+    width: 100%;
+    margin: 1%;
+    min-height: 360px;
+}
+
+#hash {
+    font-size: 1.55ch;
+    word-break: break-word;
+}
+
+@media only screen and (max-width: 800px) {
+    .row {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .button {
+        background-color: #cf6925 !important;
+        padding: 9px 18px !important;
+        font-size: 13px !important;
+    }
+    .row2 {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .card2 {
+        max-width: 33% !important;
+    }
+    #hash {
+        word-break: break-word !important;
+        font-size: 1.2ch !important;
+    }
+}
